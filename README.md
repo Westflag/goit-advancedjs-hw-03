@@ -1,3 +1,3 @@
 ### About
 
-https://westflag.github.io/goit-advancedjs-hw-02/
+https://westflag.github.io/goit-advancedjs-hw-03/

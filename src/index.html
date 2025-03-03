@@ -5,16 +5,27 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Homework 1</title>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        referrerpolicy="no-referrer" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Homework 3</title>
   <link href="./css/styles.css" rel="stylesheet" />
 </head>
 <body>
 <load src="./partials/header.html" />
 <main>
-  <ul>
-    <li><a href="./1-timer.html">Task 1 - Timer</a></li>
-    <li><a href="./2-snackbar.html">Task 2 - Snackbar</a></li>
-  </ul>
+  <form id="search-form">
+    <label for="search-input"></label><input id="search-input" placeholder="Search for images..." type="text">
+    <button type="submit">Search</button>
+  </form>
+  <div id="loader">Loading images, please wait...</div>
+  <div id="gallery"></div>
+  <script src="main.js" type="module"></script>
 </main>
 
 <load src="./partials/footer.html" />
